@@ -1,4 +1,5 @@
 /*  import google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
@@ -442,11 +443,16 @@ section .title::after{
 }
 
 /* contact section styling */
+.contact{
+    background-image: url('images/bg1.jpg');
+    background-size: cover;
+}
 .contact .title::after{
     content: "get in touch with me.";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
+
 }
 .contact .contact-content .text{
     font-size: 20px;
@@ -469,7 +475,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: rgba(62, 131, 196, 0.733);
+    color: #3e83c4bb;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -504,6 +510,7 @@ section .title::after{
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
+    
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{
